@@ -1,4 +1,6 @@
 Myapp::Application.routes.draw do
+  get "injecting/rails31_enable_runtime_asset_compilation"
+
   get "users/new"
 
     root to: 'static_pages#home'
